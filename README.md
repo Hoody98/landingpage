@@ -1,2 +1,2 @@
-# landingpage
-HTML/CSS Landing Page Exercise
+# odin-recipes
+ Recipes, hmm yummy
