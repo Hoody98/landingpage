@@ -12,7 +12,7 @@ body {
     text-decoration: none;
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 40px;
     font-size: 24px;
@@ -34,14 +34,46 @@ ul {
     list-style-type: none;
 }
 
-.hero {
+.herocontainer {
+    display: flex;
+    padding: 50px;
+    background-color: #1F2937;
+    justify-content: space-around;
+}
+
+.heroleft {
     background-color: #1F2937;
     color: white;
     display: flex;
-    align-items: space-between;
+    flex-direction: column;
+    margin-right: 24px;
+}
+
+.heroright {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
 }
 
 .heroheader {
     font-size: 48px;
     font-weight: 900;
+}
+
+.mainimg {
+    height: 150px;
+    width: 600px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+button {
+    display: inline-block;
+    background-color: #3882f6;
+    color: white;
+    padding : 8px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
 }
