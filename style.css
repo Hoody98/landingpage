@@ -4,9 +4,8 @@ body {
     font-family: "roboto";
     margin: auto;
     padding: auto;
-
 }
-
+/* Main flex display needs to be space evenly/center */
 .headercontainer {
     color: white;
     text-decoration: none;
@@ -51,7 +50,7 @@ ul {
 
 .heroright {
     background-color: #1F2937;
-    color: white;
+    color: rgb(228, 209, 209);
     display: flex;
 }
 
@@ -65,6 +64,8 @@ ul {
     width: 600px;
     max-height: 100%;
     max-width: 100%;
+    padding : 8px;    
+    background-color: #1F2937;
 }
 
 button {
@@ -76,4 +77,44 @@ button {
     padding-left: 20px;
     padding-right: 20px;
     border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 13em;
+    margin-top: 3em;
+}
+
+h2 {
+    display: flex;
+    flex-direction: center;
+    padding-bottom: 2em;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 6em;
+}
+
+.card {
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+}
+
+.card-img {
+    height: 150px;
+    width: 600px;
+    max-height: 100%;
+    max-width: 100%;
+    padding : 8px;
+    border-radius: 25px;
 }
